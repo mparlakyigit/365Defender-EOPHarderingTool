@@ -17,5 +17,5 @@ Not: $email değişkeni içerisinde belirtilen mail adresi yeni bir shared MailB
 - cd 365Defender&EOPHarderingTool.ps1 dosyasının bulunduğu dizine geçiniz.
 - ./365Defender&EOPHarderingTool.ps1 şeklinde betiği çalıştırınız.
 - Sizden istenilen Office 365 Global admin yetkisi olan bir kullanıcı adı ve parolasını giriniz. (İlgili kullanıcının Exchange Administrator yetkisi olduğundan emin olunuz.)
-- 
+
 Not: Bu PowerShell betiğini çalıştırırken ne yaptığınızı öncelikle bilmeniz gerekmektedir. Aksi taktirde bir çok kargaşaya neden olabilirsiniz.
