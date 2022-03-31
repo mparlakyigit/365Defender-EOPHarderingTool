@@ -1,5 +1,6 @@
 # Exchange Online Protection &amp; Microsoft Defender For Office 365 Hardering Tool
 Bu PowerShell betiği Office 365 Recommended Configuration Analyzer (ORCA) raporu çıktısına göre Exchange Online Protection ve Microsoft Defender for Office 365 ürünlerinin sıkılaştırılmasını otomatize etmektedir.
+https://github.com/cammurray/orca
 
 İhtiyaç duyulan lisanslar
 - Exchange Online Plan 1 veya 2 (Bu hizmetler içerisinde hali hazırda Exchange Online Protection gelmektedir.)
