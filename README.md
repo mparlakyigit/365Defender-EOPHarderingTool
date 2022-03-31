@@ -2,7 +2,7 @@
 Bu PowerShell betiği Office 365 Recommended Configuration Analyzer (ORCA) raporu çıktısına göre Exchange Online Protection ve Microsoft Defender for Office 365 ürünlerinin sıkılaştırılmasını otomatize etmektedir.
 
 İhtiyaç duyulan lisanslar
-- Exchange Online Plan 1 veya 2
+- Exchange Online Plan 1 veya 2 (Bu hizmetler içerisinde hali hazırda Exchange Online Protection gelmektedir.)
 - Microosft Defender for Office 365 Plan 1 veya 2
 
 ![2](https://user-images.githubusercontent.com/53214224/161149367-f074665d-63cc-4ae0-8ee9-47bb1249bd65.png)
