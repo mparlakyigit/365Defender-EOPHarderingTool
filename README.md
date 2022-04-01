@@ -20,3 +20,5 @@ Not: $email değişkeni içerisinde belirtilen mail adresi yeni bir shared MailB
 - Sizden istenilen Office 365 Global admin yetkisi olan bir kullanıcı adı ve parolasını giriniz. (İlgili kullanıcının Exchange Administrator yetkisi olduğundan emin olunuz.)
 
 Not: Bu PowerShell betiğini çalıştırırken ne yaptığınızı öncelikle bilmeniz gerekmektedir. Aksi taktirde bir çok kargaşaya neden olabilirsiniz.
+
+![3](https://user-images.githubusercontent.com/53214224/161203038-08bdffd8-2a90-41f0-8faa-50a318d49233.png)
