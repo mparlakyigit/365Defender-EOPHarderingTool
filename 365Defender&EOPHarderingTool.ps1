@@ -90,7 +90,7 @@ Set-MalwareFilterPolicy -Identity Default -FileTypes "ade","adp","ani","bas","ba
 #Safe Links
 #https://security.microsoft.com/safelinksv2
 #Get-AtpPolicyForO365
-New-SafeLinksPolicy -Name "Safe-Links-Policy" -IsEnabled $true -EnableSafeLinksForTeams $true -TrackClicks $true -ScanUrls $true -EnableForInternalSenders $true -DeliverMessageAfterScan $true -DisableUrlRewrite $False -EnableOrganizationBranding $False
+New-SafeLinksPolicy -Name "Safe-Links-Policy" -EnableSafeLinksForTeams $true -TrackClicks $true -ScanUrls $true -EnableForInternalSenders $true -DeliverMessageAfterScan $true -DisableUrlRewrite $False -EnableOrganizationBranding $False
 Set-SafeLinksPolicy -Identity "Safe-Links-Policy" -AllowClickThrough $False
 New-SafeLinksRule -Name "Safe-Links-Rule" -SafeLinksPolicy "Safe-Links-Policy" -Priority 0 -RecipientDomainIs $Domain_one,$Domain_two,$Domain_three
 
