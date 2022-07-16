@@ -82,8 +82,7 @@ Set-AntiPhishPolicy -Identity "Office365 AntiPhish Default" -EnableSimilarUsersS
 #Anti-Malware
 #https://security.microsoft.com/antimalwarev2
 Set-MalwareFilterPolicy -Identity Default -EnableInternalSenderNotifications $False -EnableExternalSenderNotifications $False
-Set-MalwareFilterPolicy -Identity Default -EnableInternalSenderAdminNotifications $True -EnableExternalSenderAdminNotifications $True
-Set-MalwareFilterPolicy -Identity Default -InternalSenderAdminAddress $email -ExternalSenderAdminAddress $email
+Set-MalwareFilterPolicy -Identity Default -EnableInternalSenderAdminNotifications $False -EnableExternalSenderAdminNotifications $False
 Set-MalwareFilterPolicy -Identity Default -EnableFileFilter $True
 Set-MalwareFilterPolicy -Identity Default -FileTypes "ade","adp","ani","bas","bat","chm","cmd","com","cpl","crt","hlp","ht","hta","inf","ins","isp","job","js","jse","lnk","mda","mdb","mde","mdz","msc","msi","msp","mst","pcd","reg","scr","sct","shs","url","vb","vbe","vbs","wsc","wsf","wsh","exe","pif"
 
