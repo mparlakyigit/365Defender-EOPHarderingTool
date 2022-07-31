@@ -1,4 +1,4 @@
-# Exchange Online Protection &amp; Microsoft Defender For Office 365 Hardering Tool
+# Exchange Online Protection &amp; Microsoft Defender For Office 365 Hardening Tool
 Bu PowerShell betiği Office 365 Recommended Configuration Analyzer (ORCA) raporu çıktısına göre Exchange Online Protection ve Microsoft Defender for Office 365 ürünlerinin sıkılaştırılmasını otomatize etmektedir.
 https://github.com/cammurray/orca
 
